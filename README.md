@@ -1,11 +1,11 @@
 # A&F Dijital
  
-1. SORU 
+SORU 1
 --------------------------------------------
  1. soruda ilk olarak her senenin verilerini çekeceğim url'leri farklı değişkenlere atadım. Daha sonra çekeceğim verileri atamak üzere her yıl için dizi tanımladım. Son olarak yıllardaki artış miktarını atayacağım dizileri tanımladım.Daha sonra kurVerisiCek isimli bir fonksiyon oluşturdum ve bu fonksiyonda verilen url'den veri çekme işlemini yaptım. Gelen linke göre ilgili yılın verisini çektikten sonra bu verileri parse edip diziyeEkle fonksiyonuma yolladım. Diziye ekle fonksiyonuna gelen parametrelerle url hangi yıla aitse o değişken için bir if bloğu yazdım ve bu bloklar içerisinde ilgili verileri programın en başında oluşturduğum veri dizilerine atadım. Programın başlangıç noktasında en alt kısımda kurVerisiCek() fonksiyonunu çağırdım ve buna 2022 yılı urlsini yolladım. kurVerisiCek fonksiyonu 2022 yılının verilerini diziyeEkle fonksiyonuna yolladı ve 2022 yılının olduğu if bloğu ilk önce verileri 2022 yılı için oluşturulan veri dizisine ekledi ardından kurVerisiCek fonksiyonuna bu 2022 verilerini ve bunun yanında 2021 yılının urlsini içeren değişkeni yolladı. kurVerisiCek fonksiyonu bu sefer 2021 yılının url'sinin olduğu if bloğuna girdi ve bu blok içerisinde gelen 2022 yılı verileri ile bu blok içerisinde oluşturulan 2021 verileri arasındaki farkı buldu. Bu farkları da programın en başında oluşturduğum artis isimli diziye atadım ve bu artis isimli dizi içerisindeki en büyük elemanı bularak en çok artış olan kurun ne olduğunu tespit ettim. Tüm bu işlemlerin ardından 2022 yılında en çok artış olan kurun ismini artış miktarını ve artış yüzdesini hesaplamaları yapıp console ekranına yazdırdım. Tüm bu işlemler bir sarmal şeklinde yıllar birer birer azalacak şekilde devam etti ve son 10 yıldaki en çok artış olan kurlar tespit edilip konsola yazdırıldı. 
 
 
-3. SORU 
+SORU 3 
 -----------------------------------------
 
 3. soruda ilk olarak oran tutar ve kodları birer diziye atadım. Daha sonra bunları konsola yazdırdım. Ardından oran ve kod arasındaki benzerliği bulacağım için bu iki dizinin elamanlarını "yeniDizi" isimli iki boyutlu diziye bir for döngüsüyle yerleştirdim. Daha sonra bu ikililer arasında aynı olanları tespit etmek adına iç içe bir for döngüsü kurdum. Dıştaki for döngüsünde ilk olarak bu iki boyutlu dizinin ilk ikilisini aldım ve daha sonra içerdeki for döngüsünde bu ikiliyi diğer ikililerle karşılaştırdım. Bu işlemi tüm değişkenler birbiri ile karşılaştırılana kadar devam ettirdim. İçteki for döngüsünde eğer aynı olan ikili tespit edildiyse bu değişkenlerin "tutar" dizisindeki karşılıklarını buldum ve bu tutarları toplayıp ilk ikilinin tutar kısmına yazdırdım. Daha sonra ikinci ikiliyi oran ve kod dizilerinden kaldırdım.
