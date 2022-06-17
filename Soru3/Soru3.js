@@ -9,42 +9,18 @@ console.log("------------------------GİRDİ----------------------")
     console.log(kod)
 
 for(let i=0;i<kod.length;i++){
-
-    
-    yeniDizi.push([oran[i], kod[i]]);
-    
-    
+    yeniDizi.push([oran[i], kod[i]]); 
 }
-
-for(let i=0;i<yeniDizi.length;i++){
-    
-    
-    
-    for(let j=i+1;j<yeniDizi.length;j++){
-        //console.log(yeniDizi[i])
-         
-        //console.log(yeniDizi[j])
-        
+for(let i=0;i<yeniDizi.length;i++){ 
+    for(let j=i+1;j<yeniDizi.length;j++){ 
         if(JSON.stringify(yeniDizi[i])==JSON.stringify(yeniDizi[j])){
-
-            tutar[i]+=tutar[j]
-            
+            tutar[i]+=tutar[j]  
             oran.splice(j, 1);
             tutar.splice(j, 1);
             kod.splice(j, 1);
-           
-           
         }
-      
-        
-        
         else
-        {}
-        
-        
-        
-    }
-}
+        {}}}
     console.log("------------------------ÇIKTI----------------------")
     console.log(oran)
     console.log(tutar)
